@@ -4,6 +4,10 @@ html {
   color: #090D66;
 }
 
+body {
+  margin: 0;
+}
+
 li {
   font-size: 20px;
   display: inline-block;
@@ -24,4 +28,22 @@ li a {
 li a:hover {
   background-color: #090D66;
   color: white;
+}
+
+nav {
+  margin-bottom: 40px;
+  position: fixed;
+  top: 40px;
+}
+
+nav, ul {
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+.banner {
+  width: 100%;
 }
