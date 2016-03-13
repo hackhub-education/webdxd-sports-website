@@ -6,6 +6,7 @@ html {
   /*background-color: #27DEFF;*/
   font-family: Arial;
   color: #090D66;
+  font-size: 14px;
 }
 
 body {
@@ -70,9 +71,17 @@ ul {
   position: relative;
 }
 
+
+
 .inline-wrapper div img {
   width: 100%;
   height: 300px;
+  transition: opacity .5s;
+}
+
+.inline-wrapper img {
+  width: 100%;
+  height: 100000px;
   transition: opacity .5s;
 }
 
@@ -95,3 +104,92 @@ ul {
 .inline-wrapper div:hover img {
   opacity: .3;
 }
+
+.hamburger div {
+  width: 30px;
+  height: 5px;
+  background-color: #FF381B;
+  margin-top: 5px;
+}
+
+.mobile-nav {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  display: none;
+}
+
+/*table tr th, table tr td {
+  border: 1px solid #090D66;
+  padding: 5px;
+}*/
+
+.games-topic {
+  text-align: center;
+}
+
+.table-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+table {
+  margin: 0 auto;
+}
+
+.container {
+  padding: 0 25%;
+}
+
+.contact-topic {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.contact-form input, .contact-form textarea {
+  margin: 10px;
+  font-size: 1rem;
+  /*padding: 30px;*/
+}
+
+.page-top {
+  margin-top: 100px;
+}
+
+@media(max-width: 888px) {
+
+  .inline-wrapper div {
+    width: 49.7%;
+  }
+
+  .banner {
+    height: 400px;
+    width: auto; 
+  }
+
+  .banner-text {
+    padding: 0 10%;
+  }
+
+}
+
+@media(max-width: 737px) {
+
+  .inline-wrapper div {
+    width: 100%;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+  }
+
+  nav {
+    top: 0;
+  }
+
+}
+
