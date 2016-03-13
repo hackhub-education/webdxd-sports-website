@@ -1,5 +1,9 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
-  background-color: #27DEFF;
+  /*background-color: #27DEFF;*/
   font-family: Arial;
   color: #090D66;
 }
@@ -31,9 +35,8 @@ li a:hover {
 }
 
 nav {
-  margin-bottom: 40px;
-  position: fixed;
-  top: 40px;
+  position: absolute;
+  top: 30px;
 }
 
 nav, ul {
@@ -46,4 +49,23 @@ ul {
 
 .banner {
   width: 100%;
+  opacity: .5;
+}
+
+.banner-text {
+  position: absolute;
+  top: 120px;
+  text-align: center;
+  width: 100%;
+  padding: 0 25%;
+}
+
+.inline-wrapper {
+  margin-top: -3px;
+}
+
+.inline-wrapper img {
+  display: inline-block;
+  width: 33%;
+  height: 300px;
 }
