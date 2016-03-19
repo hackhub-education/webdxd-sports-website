@@ -160,6 +160,10 @@ table {
   margin-top: 100px;
 }
 
+.huge-text {
+  font-size: 10rem;
+}
+
 @media(max-width: 888px) {
 
   .inline-wrapper div {
