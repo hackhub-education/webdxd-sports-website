@@ -172,6 +172,10 @@ td:hover {
   opacity: .8;
 }
 
+.form-inline {
+  margin-top: 2rem;
+}
+
 @media(max-width: 888px) {
 
   .inline-wrapper div {
