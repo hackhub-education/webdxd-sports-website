@@ -55,6 +55,7 @@ ul {
 .banner {
   width: 100%;
   opacity: .5;
+  max-height: 400px;
 }
 
 .banner-text {
@@ -63,6 +64,10 @@ ul {
   text-align: center;
   width: 100%;
   padding: 0 25%;
+}
+
+.carousel-caption h1, .carousel-caption p {
+  color: black;
 }
 
 .inline-wrapper {
