@@ -41,23 +41,87 @@
     <p><strong>Sport (UK)</strong> or <em>sports (US)</em> are all forms of usually competitive physical activity or games which,[1] through casual or organised participation, aim to use, maintain or improve physical ability and skills while providing enjoyment to participants, and in some cases, entertainment for spectators.</p>
   </div>
   <div class="inline-wrapper diff-sports">
-    <div>
+    <div data-toggle="modal" data-target="#ski-modal">
       <img src="img/ski.jpg" alt="Ski">
-      <h4>Ski</h4>
+      <h4>Skiing</h4>
     </div>
-    
-    <div>
+
+    <div data-toggle="modal" data-target="#football-modal">
     <img src="img/football.jpg" alt="Football">
       <h4>Football</h4>
     </div>
-    <div>
+    <div data-toggle="modal" data-target="#basketball-modal">
       <img src="img/basketball.jpg" alt="Basketball">
       <h4>Basketball</h4>
     </div>
     
   </div>
 
+
+  <!-- Modal -->
+  <div class="modal fade" id="ski-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Skiing</h4>
+        </div>
+        <div class="modal-body">
+          <p>Skiing is a mode of transport, recreational activity and competitive winter sport in which the participant uses skis to glide on snow. Many types of competitive skiing events are recognized by the International Olympic Committee (IOC), and the International Ski Federation (FIS).</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Skier-carving-a-turn.jpg/300px-Skier-carving-a-turn.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="football-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Football</h4>
+        </div>
+        <div class="modal-body">
+          <p>Football is a family of team sports that involve, to varying degrees, kicking a ball to score a goal. Unqualified, the word football is understood to refer to whichever form of football is the most popular in the regional context in which the word appears. Sports commonly called 'football' in certain places include: association football (known as soccer in some countries); gridiron football (specifically American football or Canadian football); Australian rules football; rugby football (either rugby league or rugby union); and Gaelic football.[1][2] These different variations of football are known as football codes.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Football4.png/260px-Football4.png" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Modal -->
+  <div class="modal fade" id="basketball-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">Basketball</h4>
+        </div>
+        <div class="modal-body">
+          <p>Basketball is a sport played by two teams of five players on a rectangular court. The objective is to shoot a ball through a hoop 18 inches (46 cm) in diameter and 10 feet (3.048 m) high mounted to a backboard at each end.</p>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Jordan_by_Lipofsky_16577.jpg/225px-Jordan_by_Lipofsky_16577.jpg" alt="">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
 <script src="js/jquery-1.12.2.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 <script src="js/index.js"></script>
 
 </body>
