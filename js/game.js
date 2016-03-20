@@ -56,4 +56,8 @@ $(document).ready(function() {
         }
     });
 
+    $('table').on('click', 'td', function() {
+        $(this).parent().remove();
+    });
+
 }); 

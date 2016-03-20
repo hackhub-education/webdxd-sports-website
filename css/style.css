@@ -164,6 +164,14 @@ table {
   font-size: 10rem;
 }
 
+td {
+  cursor: pointer;
+}
+
+td:hover {
+  opacity: .8;
+}
+
 @media(max-width: 888px) {
 
   .inline-wrapper div {
