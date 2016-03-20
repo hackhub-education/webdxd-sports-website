@@ -32,4 +32,28 @@ $(document).ready(function() {
         console.log(team);
     });
 
+    function appendTd(row, name) {
+        var value = $('#' + name).val();
+        if (value != '') {
+            $('<td>').text(value).appendTo(row);
+            $('#' + name).val('');
+            return true;
+        } else {
+            return false;
+        }
+        
+    }
+
+    $('#add-btn').click(function() {
+        var row = $('<tr>');
+        if (appendTd(row, 'date') 
+            && appendTd(row, 'time')
+            && appendTd(row, 'team1')
+            && appendTd(row, 'team2')) {
+            row.appendTo('#game-table');
+        } else {
+            alert("Please check your input variables!");
+        }
+    });
+
 }); 
